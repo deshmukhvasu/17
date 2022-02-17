@@ -1,0 +1,12 @@
+--- 
+- hosts: all
+  become: yes
+  tasks: 
+   - name: "I want to ping"
+     ping:
+    
+   - name: "I want to install ansible on ubuntu node"
+     apt: 
+      name: apache2
+      status: present
+    
