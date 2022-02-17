@@ -7,6 +7,5 @@
     
    - name: "I want to install ansible on ubuntu node"
      apt: 
-      name: apache2
-      state: present
-    
+      name: {{"item"}}
+      state: present   
