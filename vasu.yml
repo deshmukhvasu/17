@@ -8,5 +8,5 @@
    - name: "I want to install ansible on ubuntu node"
      apt: 
       name: apache2
-      status: present
+      state: present
     
