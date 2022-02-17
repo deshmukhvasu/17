@@ -1,6 +1,6 @@
 --- 
 
-- hosts: all 
+- hosts: [myubuntuservice]
   become: yes
   tasks: 
    - name: Install multi package
