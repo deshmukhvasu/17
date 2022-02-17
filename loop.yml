@@ -1,6 +1,6 @@
 --- 
 
-- hosts: [myubuntuservice]
+- hosts: [vasu]
   become: yes
   tasks: 
    - name: Install multi package
